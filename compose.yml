@@ -1,0 +1,13 @@
+---
+services:
+  transformers-notebook:
+    build: /home/mikolaj/work/CNN_to_detect_handwritten_digits
+    user: root
+    ports: 
+      - 8000:8888
+    environment:
+      - JUPYTER_TOKEN=token123
+      - CHOWN_HOME=yes
+    volumes:
+      - /home/mikolaj/work/CNN_to_detect_handwritten_digits:/home/jovyan
+...
