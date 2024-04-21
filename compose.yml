@@ -2,7 +2,6 @@
 services:
   transformers-notebook:
     build: /home/mikolaj/work/CNN_to_detect_handwritten_digits
-    user: root
     ports: 
       - 8000:8888
     environment:
