@@ -1,0 +1,6 @@
+Commands to run correctly the notebook:
+
+1.enter your virtual env. in my case: conda activate tensorflow
+2 open notebook: jupyter notebook
+3. watch is your model training on GPU : watch nvidia-smi
+
